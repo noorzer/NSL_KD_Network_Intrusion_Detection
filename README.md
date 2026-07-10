@@ -87,7 +87,22 @@ The models are evaluated using:
 
 ### Local Jupyter Notebook
 
-Install the required packages:
+1. Clone the repository:
 
-```bash
-pip install numpy pandas matplotlib scikit-learn
+   git clone https://github.com/noorzer/NSL_KDD_Network_Intrusion_Detection.git
+
+2. Enter the project folder:
+
+   cd NSL_KDD_Network_Intrusion_Detection
+
+3. Install the dependencies:
+
+   pip install -r requirements.txt
+
+4. Start Jupyter Notebook:
+
+   jupyter notebook NSL_KDD_final_project.ipynb
+
+5. Select Kernel → Restart Kernel and Run All Cells.
+
+The dataset files are downloaded automatically if they are not already available.
